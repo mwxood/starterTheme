@@ -3,7 +3,7 @@ defined('ABSPATH') || exit;
 
 function starter_theme_scripts() {
     $modificated_starter_theme_version_css = (file_exists(get_template_directory() . '/assets/css/main.css')) ? date('YmdHi', filemtime(get_template_directory() . '/assets/css/main.css')) : 1;
-    $modificated_starter_theme_version_js = date('YmdHi', filemtime(get_template_directory() . '/assets/js/custom-scripts.js'));
+    $modificated_starter_theme_version_js = date('YmdHi', filemtime(get_template_directory() . '/build/index.js'));
 
     wp_enqueue_style('main', get_template_directory_uri() . '/build/style-index.css', array(), $modificated_starter_theme_version_css);
 
