@@ -1,4 +1,4 @@
-<?php
+<?php // home page template
 
 defined('ABSPATH') || exit;
 
