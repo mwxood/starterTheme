@@ -4,7 +4,8 @@ defined('ABSPATH') || exit;
 
 get_header(); ?>
 
-<?php if(have_posts ()):  the_post (); ?>
+<div class="container">
+    <?php if(have_posts ()):  the_post (); ?>
 
     <?php the_title('<h2>', '</h2>'); ?>
 
@@ -12,6 +13,7 @@ get_header(); ?>
 
     <a href="<?php the_permalink(); ?>">View more</a>
 
-<?php endif; ?>
+    <?php endif; ?>
+</div>
 
 <?php get_footer(); ?>
