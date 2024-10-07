@@ -3,7 +3,7 @@
 /**
  * Template part to initialize the footer menu
  *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @link https://wp-code.eu
  *
  * @package StarterTheme
  * @version 1.0.0
