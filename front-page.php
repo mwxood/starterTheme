@@ -13,7 +13,7 @@ get_header();
 
     <?php the_content(); ?>
 
-    <a href="<?php the_permalink(); ?>">View more</a>
+        <a href="<?php the_permalink(); ?>">View more</a>
 
     <?php
     endif; ?>
