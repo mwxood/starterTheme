@@ -1,3 +1,3 @@
-import './style.css'; 
+import "./styles/style.scss";
 
-console.log('Hello, WordPress!');
+console.log("Hello, WordPress!");

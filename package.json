@@ -1,7 +1,8 @@
 {
   "scripts": {
     "build": "wp-scripts build",
-    "start": "wp-scripts start"
+    "start": "wp-scripts start",
+    "watch": "wp-scripts start"
   },
   "devDependencies": {
     "@wordpress/scripts": "^30.1.0"

@@ -1,19 +1,22 @@
 <?php // home page template
 
-defined('ABSPATH') || exit;
+defined("ABSPATH") || exit();
 
-get_header(); ?>
+get_header();
+?>
 
-<div class="container">
-    <?php if(have_posts ()):  the_post (); ?>
+<main class="page-body container">
+    <?php if (have_posts()):
+      the_post(); ?>
 
-    <?php the_title('<h1>', '</h1>'); ?>
+    <?php the_title("<h1>", "</h1>"); ?>
 
     <?php the_content(); ?>
 
     <a href="<?php the_permalink(); ?>">View more</a>
 
-    <?php endif; ?>
+    <?php
+    endif; ?>
 </div>
 
 <?php get_footer(); ?>
